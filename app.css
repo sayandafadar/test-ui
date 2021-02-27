@@ -1,0 +1,116 @@
+
+#youtube {
+    color: red;
+}
+
+#discord {
+    color: #4869df;
+}
+
+#youtube:hover {
+    background-color: antiquewhite;
+}
+
+#discord:hover {
+    background-color: antiquewhite;
+}
+
+#logo-image {
+    height: 70px;
+    width: 85px;
+}
+
+@media (min-width: 1200px) {
+    #top-image {
+        margin-left: 1rem;
+    }
+}
+
+
+#topo {
+    margin-top: 0;
+    padding-top: 0;
+    padding: 55px;
+}
+
+#color:hover {
+    color: #ff75a0;
+}
+
+#color {
+    font-weight: 500;
+}
+
+@media(min-width: 1200px) {
+    .top-container {
+        padding: 4.2rem;
+        padding-top: 0;
+        padding-bottom: 0;
+    } #hero-container {
+        padding: 8.9rem;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+.learn-more-button {
+    padding: 25.0px;
+    padding-top: 10.0px;
+    background-color: #ff75a0;
+    color: white;
+    padding-bottom: 0.6rem;
+    font-size: 1.1rem;
+}
+
+.learn-more-button:hover {
+    color: white;
+}
+
+.learn-more-button::after {
+    text-decoration: none;
+}
+
+.container-bg {
+    background-color: #ffaec0;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: "Lato", "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 500;
+    line-height: 1.2;
+    color: #272D4E;
+  }
+
+h1, .h1 {
+  font-size: calc(1.37383rem + 1.48598vw);
+}
+
+@media (min-width: 1200px) {
+    h1, .h1 {
+      font-size: 2.98832rem;
+    }
+  }
+
+@media (max-width: 406px) {
+    p {
+        font-size: 0.86rem;
+    }    
+}
+/* 
+@media (max-width: 414px) {
+    p {
+        font-size: 0.99rem;
+    }    
+} */
+
+
+@media (max-width: 378px) {
+    p {
+        font-size: 0.874rem;
+    }    
+}
+
+
+  
