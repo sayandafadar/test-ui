@@ -20,19 +20,6 @@
     width: 85px;
 }
 
-@media (min-width: 1200px) {
-    #top-image {
-        margin-left: 1rem;
-    }
-}
-
-
-#topo {
-    margin-top: 0;
-    padding-top: 0;
-    padding: 55px;
-}
-
 #color:hover {
     color: #ff75a0;
 }
@@ -41,17 +28,6 @@
     font-weight: 500;
 }
 
-@media(min-width: 1200px) {
-    .top-container {
-        padding: 4.2rem;
-        padding-top: 0;
-        padding-bottom: 0;
-    } #hero-container {
-        padding: 8.9rem;
-        padding-top: 0;
-        padding-bottom: 0;
-    }
-}
 
 .learn-more-button {
     padding: 25.0px;
@@ -93,17 +69,17 @@ h1, .h1 {
     }
   }
 
+@media (max-width: 414px) {
+    p {
+        font-size: 0.99rem;
+    }    
+}
+
 @media (max-width: 406px) {
     p {
         font-size: 0.86rem;
     }    
 }
-/* 
-@media (max-width: 414px) {
-    p {
-        font-size: 0.99rem;
-    }    
-} */
 
 
 @media (max-width: 378px) {
@@ -111,6 +87,41 @@ h1, .h1 {
         font-size: 0.874rem;
     }    
 }
+
+@media (max-width: 362px) {
+    p {
+        font-size: 0.774rem;
+    }    
+}
+
+@media (min-width: 1000px) {
+    #top-image {
+        margin-left: 1rem;
+    }
+}
+
+@media(min-width: 1000px){
+    #topo {
+        margin-top: 0;
+        padding-top: 0;
+        padding: 55px;
+    }
+}
+
+
+@media(min-width: 1200px) {
+    .top-container {
+        padding: 4.2rem;
+        padding-top: 0;
+        padding-bottom: 0;
+    } #hero-container {
+        padding: 8.9rem;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+
 
 
   
